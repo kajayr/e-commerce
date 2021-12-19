@@ -1,0 +1,16 @@
+.test{
+    color: red;
+}
+
+.list{
+    color: #113CFC;
+    cursor: pointer;
+    text-decoration: none;
+}
+.list:hover{
+    color:#1597E5;
+}
+
+li{
+    list-style:none;
+}
