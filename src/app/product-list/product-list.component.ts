@@ -16,7 +16,7 @@ export class ProductListComponent implements OnInit {
   share(product:any){
     alert("Sharing my favorite product:" + "\n" + product.name + "\n" + product.description)
   }
-  onNotify(){
-    alert("We will notify you whenever this item is on sale")
+  onNotify(child:string){
+    alert("We will notify you whenever this item is on sale\n" + child)
   }
 }
